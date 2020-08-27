@@ -1,0 +1,56 @@
+.container {
+  width: 380px;
+  height: 215px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.interior {
+  width: 100px;
+  height: 100px;
+}
+
+.div1 {
+  background-color: red;
+  border: 5px solid white;
+  position: absolute;
+  left: 110px;
+}
+
+.div2 {
+  background-color: orange;
+  border: 5px solid white;
+  position: absolute;
+  top: 20px;
+  left: 270px;
+  transform: rotate(-20deg);
+}
+
+.div3 {
+  background-color: yellow;
+  border: 5px solid white;
+  position: absolute;
+  top: 110px;
+  left: 220px;
+  transform: rotate(-35deg);
+}
+
+.div4 {
+  background-color: blue;
+  border: 5px solid white;
+  position: absolute;
+  top: 70px;
+  left: 130px;
+  transform: rotate(35deg);
+}
+
+.div5 {
+  background-color: pink;
+  position: absolute;
+  border: 5px solid white;
+  position: absolute;
+  top: 55px;
+  left: 40px;
+  transform: rotate(20deg);
+}
