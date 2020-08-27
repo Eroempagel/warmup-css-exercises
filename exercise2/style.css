@@ -1,0 +1,39 @@
+.container {
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.interior {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.div1 {
+  float: left;
+  margin: 10px;
+}
+
+.div2 {
+  float: left;
+  margin: 10px;
+}
+
+.div3 {
+  float: left;
+  margin: 10px;
+}
+
+.div4 {
+  float: left;
+  margin: 10px;
+}
+
+.div5 {
+  background-color: red;
+  position: absolute;
+  margin: 70px;
+  transform: rotate(45deg);
+}
