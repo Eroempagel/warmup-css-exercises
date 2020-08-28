@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  width: 380px;
-  height: 215px;
+  width: 350px;
+  height: 220px;
   padding: 10px;
+  margin: auto;
   background-color: white;
   border: 1px solid black;
 }
@@ -9,48 +14,40 @@
 .interior {
   width: 100px;
   height: 100px;
+  border: 5px solid white;
+  position: relative;
 }
 
 .div1 {
   background-color: red;
-  border: 5px solid white;
-  position: absolute;
-  left: 110px;
+  top: -5px;
+  left: 70px;
 }
 
 .div2 {
   background-color: orange;
-  border: 5px solid white;
-  position: absolute;
-  top: 20px;
-  left: 270px;
+  top: -100px;
+  left: 220px;
   transform: rotate(-20deg);
 }
 
 .div3 {
   background-color: yellow;
-  border: 5px solid white;
-  position: absolute;
-  top: 110px;
-  left: 220px;
+  top: -110px;
+  left: 175px;
   transform: rotate(-35deg);
 }
 
 .div4 {
   background-color: blue;
-  border: 5px solid white;
-  position: absolute;
-  top: 70px;
-  left: 130px;
+  top: -250px;
+  left: 90px;
   transform: rotate(35deg);
 }
 
 .div5 {
   background-color: pink;
-  position: absolute;
-  border: 5px solid white;
-  position: absolute;
-  top: 55px;
-  left: 40px;
+  top: -365px;
+  left: 10px;
   transform: rotate(20deg);
 }
