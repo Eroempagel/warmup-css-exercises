@@ -1,47 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  width: 330px;
-  height: 180px;
-  padding: 10px;
-  background-color: white;
+  width: 312.5px;
+  height: 167.5px;
+  padding: 5px;
+  margin: auto;
   border: 1px solid black;
 }
 
 .interior {
   width: 100px;
   height: 100px;
-  background-color: white;
+  border: 5px solid white;
+  position: relative;
 }
 
 .div1 {
   background-color: red;
-  border: 5px solid white;
   float: left;
 }
 
 .div2 {
   background-color: orange;
-  border: 5px solid white;
   float: left;
 }
 
 .div3 {
   background-color: yellow;
-  border: 5px solid white;
   float: left;
 }
 
 .div4 {
   background-color: blue;
-  position: absolute;
   border: 5px solid white;
-  top: 85px;
-  left: 75px;
+  top: 55px;
+  left: 45px;
 }
 
 .div5 {
   background-color: pink;
-  position: absolute;
   border: 5px solid white;
-  top: 85px;
-  left: 200px;
+  top: -45px;
+  left: 155px;
 }
