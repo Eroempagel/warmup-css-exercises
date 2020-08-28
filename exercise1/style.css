@@ -1,35 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  width: 250px;
+  width: 275px;
+  height: 275px;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid black;
 }
 
 .interior {
   background-color: blue;
   width: 100px;
   height: 100px;
+  margin: 10px;
+  position: relative;
 }
 
 .div1 {
   float: left;
-  margin: 10px;
 }
 
 .div2 {
   float: left;
-  margin: 10px;
 }
 
 .div3 {
   float: left;
-  margin: 10px;
 }
 
 .div4 {
   float: left;
-  margin: 10px;
 }
 
 .div5 {
   background-color: red;
-  position: absolute;
-  margin: 70px;
+  top: 60px;
+  left: 60px;
 }
