@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  width: 300px;
-  height: 300px;
-  padding: 20px;
+  width: 322.5px;
+  height: 322.5px;
+  margin: auto;
   background-color: white;
   border: 1px solid black;
 }
@@ -9,46 +13,36 @@
 .interior {
   width: 100px;
   height: 100px;
-  background-color: white;
+  position: relative;
+  border: 5px solid white;
 }
 
 .div1 {
   background-color: red;
-  position: absolute;
-  border: 5px solid white;
-  margin: 5px;
   top: 10px;
   left: 10px;
 }
 
 .div2 {
   background-color: orange;
-  position: absolute;
-  border: 5px solid white;
-  top: 65px;
-  left: 65px;
+  top: -40px;
+  left: 60px;
 }
 
 .div3 {
   background-color: yellow;
-  position: absolute;
-  border: 5px solid white;
-  top: 120px;
-  left: 120px;
+  top: -90px;
+  left: 110px;
 }
 
 .div4 {
   background-color: blue;
-  position: absolute;
-  border: 5px solid white;
-  top: 175px;
-  left: 175px;
+  top: -140px;
+  left: 160px;
 }
 
 .div5 {
   background-color: pink;
-  position: absolute;
-  border: 5px solid white;
-  top: 230px;
-  left: 230px;
+  top: -190px;
+  left: 210px;
 }
