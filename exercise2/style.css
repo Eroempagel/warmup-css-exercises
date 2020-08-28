@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  width: 240px;
-  height: 240px;
+  width: 272.5px;
+  height: 272.5px;
   padding: 10px;
+  margin: auto;
   border: 1px solid black;
 }
 
@@ -9,31 +14,29 @@
   background-color: blue;
   width: 100px;
   height: 100px;
+  margin: 12.5px;
+  position: relative;
 }
 
 .div1 {
   float: left;
-  margin: 10px;
 }
 
 .div2 {
   float: left;
-  margin: 10px;
 }
 
 .div3 {
   float: left;
-  margin: 10px;
 }
 
 .div4 {
   float: left;
-  margin: 10px;
 }
 
 .div5 {
   background-color: red;
-  position: absolute;
-  margin: 70px;
+  top: 62.5px;
+  left: 62.5px;
   transform: rotate(45deg);
 }
